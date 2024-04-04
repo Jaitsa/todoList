@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('../../img/background.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.todoComponent {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+

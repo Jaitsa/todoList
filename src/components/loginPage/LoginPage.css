@@ -1,0 +1,74 @@
+.form {
+  margin: 0 auto;
+  padding: 25px;
+  width: 700px;
+  border-radius: 5px;
+  margin-top: 100px;
+  background-color: #000000db;
+  box-shadow: 0 0 53px 0 rgba(133, 0, 154, 0.394);
+  border: 1px solid transparent;
+  border-image: linear-gradient(to top, rgba(255, 0, 166, 0.445), rgb(95, 0, 154)) 1;
+  border-image-slice: 1;
+  margin-bottom: 50px;
+}
+
+
+.form h2 {
+  text-align: center;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: rgb(251, 179, 255);
+}
+
+.form label {
+  display: block;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(251, 179, 255);
+}
+
+.form input {
+  width: 95%;
+  height: 50px;
+  margin-top: 15px;
+  padding: 5px 15px;
+  background: #ffffff;
+  border: 1px solid #2a2a2a;
+  color: #000000;
+  border-radius: 10px;
+  font-size: 22px;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+.form input:focus {
+  outline: 2px solid #ffffff;
+  box-shadow: 0 0 15px rgba(255, 200, 200, 0.8);
+}
+
+
+.form button {
+  display: block;
+  width: 180px;
+  padding: 15px;
+  margin-top: 45px;
+  font-size: 18px;
+  color: #000000;
+  border: 0;
+  border-radius: 10px;
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.form button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #555555;
+  transform: scale(1.02);
+}
+
+.form .error {
+  color: #eb0d0d;
+  margin-top: 8px;
+  font-size: 20px;
+}

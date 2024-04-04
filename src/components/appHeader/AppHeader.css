@@ -1,0 +1,18 @@
+.app-header {
+  background-color: #000000;
+  color: rgb(251, 179, 255);
+  padding: 15px;
+  box-shadow: 0px 2px 50px rgba(251, 179, 255, 0.603);
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 34px;
+}
