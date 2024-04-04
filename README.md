@@ -1,4 +1,4 @@
-Task taken from: task taken from: https://github.com/timotr/harjutused/blob/main/hajusrakendused/todo-client.md
+task taken from: https://github.com/timotr/harjutused/blob/main/hajusrakendused/todo-client.md
 
 # Getting Started with Create React App
 
